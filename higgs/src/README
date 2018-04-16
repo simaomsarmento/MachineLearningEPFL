@@ -1,0 +1,30 @@
+HOW TO RUN the test:
+
+Open run.py and change the data path in "load_data", 
+so that it loads the desired file. Then, run run.py
+
+
+In this folder we submit: 
+.run.py
+	.File to run for the test (prediction)
+	loads the variables - degrees, weights, top_features and other features. These are necessary
+	to make the predictions from the test data. Then it makes the predictions for the labels
+	using the test data
+
+.Code notebook
+	.Contains all the code including: data analysis and preprocessing/cleaning, the training
+	 with the chosen method (ridge regression) and the code that is common to run.py for the predictions
+
+.implementations.py
+	.where we have the basic functions as well as other functions necessary for the project	
+
+
+.Report.
+
+.helpers and proj1 helpers
+	.which contain auxiliar functions used in the project
+
+. .pickle files 
+	.that save the results we need to run run.py
+
+

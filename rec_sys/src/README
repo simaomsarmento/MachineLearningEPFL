@@ -1,0 +1,16 @@
+Python Version: 3.6.1
+Packages: numpy, scipy
+
+Installation Procedure
+   Both numpy and scipy can be easily installed with pip: ```$ pip install numpy scipy'''.
+
+   You also need Jupyter if you want to train the model in ``RecSys-Project2-CV.ipynb.ipynb''
+
+Folder Content
+   In this folder we submit:
+   - run.py: runs the prediction using the already trained model
+   - recsys.ipynb: trains the model and runs it
+   - report.pdf: the report
+   - functions.py and helpers.py: files with auxiliary functions used in the project
+   - model.pickle: parameters of the trained model
+   - Data: folder with training data and sample submission
